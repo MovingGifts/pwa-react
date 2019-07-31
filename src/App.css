@@ -18,6 +18,15 @@
   font-size: large;
 }
 
+.test-wrapper {
+  padding: 20px;
+  text-align: left;
+}
+
+.test-title {
+  font-weight: bold;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
