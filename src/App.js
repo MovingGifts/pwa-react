@@ -15,8 +15,9 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
         </div>
-        <div>
-          <div>Test #1: Works Perfectly (Expected Behaviour)</div>
+
+        <div class="test-wrapper">
+          <div class="test-title">Test #1: Works Perfectly (Expected Behaviour)</div>
           <div>Visit https://pwa-react.netlify.com/ from iPhone in mobile safari</div>
           <div>1. Make sure you have google drive on the phone but not logged in.</div>
           <div>2. Click "Choose File". It will show you the list of options to choose from.</div>
@@ -25,8 +26,8 @@ class App extends Component {
           <div>5. Click "Choose File" it will still show you the list of options to choose from. This works perfectly in mobile safari NOT in PWA mode.</div>
         </div>
 
-        <div>
-          <div>Test #2: Does NOT Work (Unexpected Behaviour)</div>
+        <div class="test-wrapper">
+          <div class="test-title">Test #2: Does NOT Work (Unexpected Behaviour)</div>
           <div>Visit https://pwa-react.netlify.com/ from iPhone in mobile safari, hit the share button, then add to home screen. This will add the PWA app on your phone.</div>
           <div>1. Make sure you have google drive on the phone but not logged in.</div>
           <div>2. Click "Choose File" in PWA app. It will show you the list of options to choose from.</div>
