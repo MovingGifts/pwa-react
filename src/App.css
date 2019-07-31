@@ -18,6 +18,10 @@
   font-size: large;
 }
 
+.upload-wrapper {
+  margin-top: 20px;
+}
+
 .test-wrapper {
   padding: 20px;
   text-align: left;
@@ -25,6 +29,20 @@
 
 .test-title {
   font-weight: bold;
+}
+
+.test-steps-works {
+  background: #89e8af;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.test-steps-issue {
+  background: #fbc57f;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
 }
 
 @keyframes App-logo-spin {
