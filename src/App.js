@@ -33,7 +33,7 @@ class App extends Component {
             <div>2. Click "Choose File". It will show you the list of options to choose from.</div>
             <div>3. Click "Browse" to look for the photo.</div>
             <div>4. Click "Cancel" and you're back here.</div>
-            <div>5. Click "Choose File" it will still show you the list of options to choose from. This works perfectly in mobile safari NOT in PWA mode.</div>
+            <div>5. Click "Choose File" it will still show you the list of options to choose from. This works perfectly in mobile safari but NOT in PWA mode below.</div>
           </div>
         </div>
 
